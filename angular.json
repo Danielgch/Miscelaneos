@@ -26,11 +26,13 @@
               "src/styles.css",
               "src/assets/b4/css/bootstrap.min.css",
               "src/assets/font-awesome/css/fontawesome.min.css"
+              
             ],
             "scripts": [
               "src/assets/jquery/jquery.js", 
               "src/assets/tether/tether.min.js",
-              "src/assets/b4/js/bootstrap.min.js"
+              "src/assets/b4/js/bootstrap.min.js",
+              "src/assets/font-awesome/js/fontawesome.min.js"
             ],
             "es5BrowserSupport": true
           },
