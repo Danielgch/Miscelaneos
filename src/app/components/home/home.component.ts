@@ -3,9 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <p>
-      home works!
-    </p>
+  <app-ng-style></app-ng-style>
+  <app-css></app-css>
+  <app-clases></app-clases>
+  <br><br>
+  <p [appResaltado]="orange">Hola mundo</p>
+  <app-ng-switch></app-ng-switch>
   `,
   styles: []
 })
