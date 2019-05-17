@@ -11,6 +11,8 @@ import { HomeComponent } from './components/home/home.component';
 import { UsuarioComponent } from './components/usuario/usuario.component';
 import { UsuarioNuevoComponent } from './components/usuario/usuario-nuevo.component';
 import { UsuarioEditarComponent } from './components/usuario/usuario-editar.component';
+import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { UsuarioEditarComponent } from './components/usuario/usuario-editar.comp
     HomeComponent,
     UsuarioComponent,
     UsuarioNuevoComponent,
-    UsuarioEditarComponent
+    UsuarioEditarComponent,
+    UsuarioDetalleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
